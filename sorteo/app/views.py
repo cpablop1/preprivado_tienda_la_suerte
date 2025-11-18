@@ -49,7 +49,7 @@ def realizar_venta(request):
             venta.save()
             
             # Generar voucher (podrías redirigir a una vista de voucher)
-            return redirect('voucher_venta', venta_id=venta.id)
+            return redirect('sistema:voucher_venta', venta_id=venta.id)
     else:
         form = VentaForm()
     
@@ -75,7 +75,7 @@ def registrar_resultado(request):
             )
             ventas_ganadoras.update(es_ganador=True)
             
-            return redirect('resultados_sorteo')
+            return redirect('sistema:resultados_sorteo')
     else:
         form = ResultadoSorteoForm()
     
