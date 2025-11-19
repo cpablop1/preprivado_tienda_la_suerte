@@ -17,3 +17,20 @@ Sistema web desarrollado en Django para la gestión completa de sorteos de la ti
 - Base de Datos: SQLite
 - Gráficos: Chart.js
 - Iconos: Font Awesome
+
+## ESTRUCTURA DEL PROYECTO
+preprivado_tienda_la_suerte/
+├── manage.py
+├── requirements.txt
+├── sorteo/ (Configuración del proyecto)
+├── app/ (Aplicación principal)
+└── templates/ (Templates HTML)
+
+## INSTRUCCIONES DE INSTALACIÓN PASO A PASO
+### PREREQUISITOS
+- Python 3.8 o superior instalado
+- pip (gestor de paquetes de Python)
+- PASO 1: PREPARAR EL ENTORNO
+- Descargar o clonar el proyecto
+- Abrir terminal/consola en la carpeta del proyecto
+- PASO 2: CREAR ENTORNO VIRTUAL
