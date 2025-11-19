@@ -28,7 +28,7 @@ preprivado_tienda_la_suerte/\
 
 ## INSTRUCCIONES DE INSTALACIÓN PASO A PASO
 ### PREREQUISITOS
-- Python 3.8 o superior instalado
+- Python 3.11.9
 - pip (gestor de paquetes de Python)
 - Wampserver o Xampp instalado
 ### PASO 1: PREPARAR EL ENTORNO
