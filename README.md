@@ -20,15 +20,10 @@ Sistema web desarrollado en Django para la gestión completa de sorteos de la ti
 
 ## ESTRUCTURA DEL PROYECTO
 `preprivado_tienda_la_suerte/
-
 ├── manage.py
-
 ├── requirements.txt
-
 ├── sorteo/ (Configuración del proyecto)
-
 ├── app/ (Aplicación principal)
-
 └── templates/ (Templates HTML)`
 
 ## INSTRUCCIONES DE INSTALACIÓN PASO A PASO
