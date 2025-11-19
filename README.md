@@ -35,9 +35,9 @@ preprivado_tienda_la_suerte/\
 - Abrir terminal/consola en la carpeta del proyecto
 
 ### PASO 2: CREAR ENTORNO VIRTUAL
-Ejecutar en la consola:\
+Ejecutar en la consola:
 ```
-python -m venv venv
+> python -m venv venv
 ```
 Activar el entorno virtual:
 ```
@@ -47,7 +47,7 @@ Activar el entorno virtual:
 
 ### PASO 3: INSTALAR DEPENDENCIAS
 ```
-pip install django
+> pip install django
 ```
 
 ### PASO 4: CONFIGURAR LA BASE DE DATOS
@@ -55,3 +55,12 @@ pip install django
 > python manage.py makemigrations
 > python manage.py migrate
 ```
+
+### PASO 5: CARGAR DATOS INICIALES
+```
+> python manage.py load_initial_data
+```
+
+Este comando crea:
+- Los 3 tipos de sorteos: La Santa, La Rifa, El Sorteo
+- Un usuario administrador
