@@ -82,3 +82,16 @@ El sistema incluye tres tipos de sorteos preconfigurados:
 - LA SANTA: Paga Q25.00 por Q1.00 (3 sorteos diarios)
 - LA RIFA: Paga Q70.00 por Q1.00 (1 sorteo diario)
 - EL SORTEO: Paga Q150.00 por Q1.00 (2 sorteos diarios)
+
+## MANUAL DE USUARIO
+1. ACCEDER AL SISTEMA
+- URL: http://127.0.0.1:8000/
+- Usar las credenciales del superusuario creado
+2. REGISTRAR UN CLIENTE
+- Hacer clic en "Clientes" en el menú lateral
+- Completar el formulario con:
+  - Nombre completo
+  - Teléfono
+  - Dirección
+  - Fecha de nacimiento
+- Hacer clic en "Guardar Cliente"
