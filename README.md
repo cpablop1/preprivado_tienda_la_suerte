@@ -95,3 +95,32 @@ El sistema incluye tres tipos de sorteos preconfigurados:
   - Dirección
   - Fecha de nacimiento
 - Hacer clic en "Guardar Cliente"
+
+3. REALIZAR UNA VENTA
+- Hacer clic en "Venta" en el menú lateral
+- Seleccionar el cliente (o registrar uno nuevo)
+- Seleccionar el tipo de sorteo
+- Ingresar número (00-99)
+- Ingresar monto a apostar
+- Seleccionar número de sorteo del día
+- Hacer clic en "Registrar Venta"
+- El sistema generará automáticamente un voucher
+
+4. REGISTRAR RESULTADOS DE SORTEOS
+- Hacer clic en "Resultados" en el menú lateral
+- Seleccionar tipo de sorteo
+- Ingresar fecha del sorteo
+- Ingresar número ganador (00-99)
+- Especificar número de sorteo del día
+- Hacer clic en "Registrar Resultado"
+
+5. GENERAR REPORTES
+REPORTE DE GANADORES:
+- Ir a "Reportes" → "Ganadores"
+- Seleccionar fecha deseada
+- Ver lista de ganadores
+REPORTE DE RECAUDACIÓN:
+- Ir a "Reportes" → "Recaudación"
+- Seleccionar rango de fechas
+- Opcional: filtrar por sorteo específico
+- Ver reporte con gráficos
