@@ -38,7 +38,7 @@ preprivado_tienda_la_suerte/\
 Ejecutar en la consola:\
 ```
 python -m venv venv
-```\
+```
 Activar el entorno virtual:
 ```
 - Windows: venv\Scripts\activate
