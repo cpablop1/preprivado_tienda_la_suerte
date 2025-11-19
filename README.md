@@ -35,7 +35,13 @@ Sistema web desarrollado en Django para la gestión completa de sorteos de la ti
 ### PREREQUISITOS
 - Python 3.8 o superior instalado
 - pip (gestor de paquetes de Python)
-- PASO 1: PREPARAR EL ENTORNO
+### PASO 1: PREPARAR EL ENTORNO
 - Descargar o clonar el proyecto
 - Abrir terminal/consola en la carpeta del proyecto
-- PASO 2: CREAR ENTORNO VIRTUAL
+
+### PASO 2: CREAR ENTORNO VIRTUAL
+Ejecutar en la consola:
+`python -m venv venv`
+Activar el entorno virtual:
+- Windows: venv\Scripts\activate
+- Linux/Mac: source venv/bin/activate
