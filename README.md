@@ -46,6 +46,6 @@ Activar el entorno virtual:
 
 ### PASO 4: CONFIGURAR LA BASE DE DATOS
 ```
-python manage.py makemigrations
-python manage.py migrate
+> python manage.py makemigrations
+> python manage.py migrate
 ```
