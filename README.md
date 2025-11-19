@@ -30,6 +30,7 @@ preprivado_tienda_la_suerte/\
 ### PREREQUISITOS
 - Python 3.8 o superior instalado
 - pip (gestor de paquetes de Python)
+- Wampserver o Xampp instalado
 ### PASO 1: PREPARAR EL ENTORNO
 - Descargar o clonar el proyecto
 - Abrir terminal/consola en la carpeta del proyecto
@@ -47,10 +48,11 @@ Activar el entorno virtual:
 
 ### PASO 3: INSTALAR DEPENDENCIAS
 ```
-> pip install django
+> pip install -r requirements.txt
 ```
 
 ### PASO 4: CONFIGURAR LA BASE DE DATOS
+Crear una base de datos vacía con el nombre "sorteo" y luego ejecutar lo siguiente:
 ```
 > python manage.py makemigrations
 > python manage.py migrate
@@ -63,7 +65,6 @@ Activar el entorno virtual:
 
 Este comando crea:
 - Los 3 tipos de sorteos: La Santa, La Rifa, El Sorteo
-- Un usuario administrador
 
 ### PASO 6: CREAR USUARIO ADMINISTRADOR
 ```
