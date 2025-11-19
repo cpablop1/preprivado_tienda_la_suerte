@@ -45,5 +45,7 @@ Activar el entorno virtual:
 `pip install django`
 
 ### PASO 4: CONFIGURAR LA BASE DE DATOS
-`python manage.py makemigrations`\
-`python manage.py migrate`
+```
+python manage.py makemigrations
+python manage.py migrate
+```
