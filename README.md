@@ -134,7 +134,30 @@ REPORTE DE RECAUDACIÓN:
 
 ## SOLUCIÓN DE PROBLEMAS COMUNES
 PROBLEMA 1: Error "Reverse for 'voucher_venta' not found"\
-SOLUCIÓN: Verificar que en views.py se use 'sistema:voucher_venta'\
+SOLUCIÓN: Verificar que en views.py se use 'sistema:voucher_venta'
 
 PROBLEMA 2: Error "Invalid filter: 'div'"\
-SOLUCIÓN: Asegurarse que existe el archivo templatetags/custom_filters.py\
+SOLUCIÓN: Asegurarse que existe el archivo templatetags/custom_filters.py
+
+PROBLEMA 3: No se cargan los datos iniciales\
+SOLUCIÓN: Ejecutar estos comandos en orden:
+
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py load_initial_data
+
+PROBLEMA 4: No se ven los estilos CSS\
+SOLUCIÓN: Verificar la conexión a internet (Bootstrap usa CDN)
+
+## URLS IMPORTANTES
+- Sistema principal: http://127.0.0.1:8000/
+- Administración Django: http://127.0.0.1:8000/admin/
+- Gestión de clientes: http://127.0.0.1:8000/clientes/
+- Ventas: http://127.0.0.1:8000/venta/
+- Resultados: http://127.0.0.1:8000/resultados/
+- Reportes: http://127.0.0.1:8000/reportes/
+
+## INFORMACIÓN ADICIONAL
+Este sistema fue desarrollado como proyecto académico para la Universidad Mariano Gálvez de Guatemala, Facultad de Ingeniería en Sistemas de Información.
+
+Fecha de entrega: Noviembre 2025
