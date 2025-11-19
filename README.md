@@ -41,7 +41,7 @@ Sistema web desarrollado en Django para la gestión completa de sorteos de la ti
 
 ### PASO 2: CREAR ENTORNO VIRTUAL
 Ejecutar en la consola:\
-`python -m venv venv`
-Activar el entorno virtual:\
+`python -m venv venv`\
+Activar el entorno virtual:
 - Windows: venv\Scripts\activate
 - Linux/Mac: source venv/bin/activate
