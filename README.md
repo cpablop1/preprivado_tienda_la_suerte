@@ -124,3 +124,17 @@ REPORTE DE RECAUDACIÓN:
 - Seleccionar rango de fechas
 - Opcional: filtrar por sorteo específico
 - Ver reporte con gráficos
+
+## REGLAS DE NEGOCIO IMPLEMENTADAS
+- Los números van del 00 al 99
+- Un mismo número puede venderse a múltiples personas
+- Bono del 10% adicional si el cliente cumple años el día de la venta
+- Período de reclamación: 5 días hábiles después del sorteo
+- Si no hay ganador, se muestra "ganador desierto"
+
+## SOLUCIÓN DE PROBLEMAS COMUNES
+PROBLEMA 1: Error "Reverse for 'voucher_venta' not found"\
+SOLUCIÓN: Verificar que en views.py se use 'sistema:voucher_venta'\
+
+PROBLEMA 2: Error "Invalid filter: 'div'"\
+SOLUCIÓN: Asegurarse que existe el archivo templatetags/custom_filters.py\
