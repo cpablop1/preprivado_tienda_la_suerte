@@ -64,3 +64,21 @@ Activar el entorno virtual:
 Este comando crea:
 - Los 3 tipos de sorteos: La Santa, La Rifa, El Sorteo
 - Un usuario administrador
+
+### PASO 6: CREAR USUARIO ADMINISTRADOR
+```
+> python manage.py createsuperuser
+```
+Seguir las instrucciones para crear un usuario y contraseña.
+
+### PASO 7: EJECUTAR EL SISTEMA
+```
+> python manage.py runserver
+```
+Abrir en el navegador: http://127.0.0.1:8000/
+
+## CONFIGURACIÓN DE SORTEOS
+El sistema incluye tres tipos de sorteos preconfigurados:
+- LA SANTA: Paga Q25.00 por Q1.00 (3 sorteos diarios)
+- LA RIFA: Paga Q70.00 por Q1.00 (1 sorteo diario)
+- EL SORTEO: Paga Q150.00 por Q1.00 (2 sorteos diarios)
