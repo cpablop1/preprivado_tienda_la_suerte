@@ -14,7 +14,7 @@ Sistema web desarrollado en Django para la gestión completa de sorteos de la ti
 ## TECNOLOGÍAS UTILIZADAS
 - Backend: Django 5.2.8
 - Frontend: HTML5, Bootstrap 5, JavaScript
-- Base de Datos: SQLite
+- Base de Datos: MySQL
 - Gráficos: Chart.js
 - Iconos: Font Awesome
 
