@@ -40,11 +40,15 @@ Ejecutar en la consola:\
 python -m venv venv
 ```\
 Activar el entorno virtual:
+```
 - Windows: venv\Scripts\activate
 - Linux/Mac: source venv/bin/activate
+```
 
 ### PASO 3: INSTALAR DEPENDENCIAS
-```pip install django```
+```
+pip install django
+```
 
 ### PASO 4: CONFIGURAR LA BASE DE DATOS
 ```
