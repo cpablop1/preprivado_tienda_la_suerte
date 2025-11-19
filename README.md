@@ -40,3 +40,10 @@ Ejecutar en la consola:\
 Activar el entorno virtual:
 - Windows: venv\Scripts\activate
 - Linux/Mac: source venv/bin/activate
+
+### PASO 3: INSTALAR DEPENDENCIAS
+`pip install django`
+
+### PASO 4: CONFIGURAR LA BASE DE DATOS
+`python manage.py makemigrations`
+`python manage.py migrate`
